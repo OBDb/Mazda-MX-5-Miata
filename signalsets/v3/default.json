@@ -1,4 +1,58 @@
-{ "commands": [
-
-]
+{
+  "commands": [
+    {
+      "hdr": "720",
+      "cmd": {"22": "c901"},
+      "freq": 1,
+      "signals": [
+        {
+          "id": "MIATA_TIRE_FL_PRESSURE",
+          "path": "Tires",
+          "fmt": {
+            "len": 8,
+            "max": 50,
+            "mul": 0.199136814274,
+            "unit": "psi"
+          },
+          "name": "Front Left Tire Pressure"
+        },
+        {
+          "id": "MIATA_TIRE_FR_PRESSURE",
+          "path": "Tires",
+          "fmt": {
+            "len": 8,
+            "bix": 8,
+            "max": 50,
+            "mul": 0.199136814274,
+            "unit": "psi"
+          },
+          "name": "Front Right Tire Pressure"
+        },
+        {
+          "id": "MIATA_TIRE_RL_PRESSURE",
+          "path": "Tires",
+          "fmt": {
+            "len": 8,
+            "bix": 16,
+            "max": 50,
+            "mul": 0.199136814274,
+            "unit": "psi"
+          },
+          "name": "Rear Left Tire Pressure"
+        },
+        {
+          "id": "MIATA_TIRE_RR_PRESSURE",
+          "path": "Tires",
+          "fmt": {
+            "len": 8,
+            "bix": 24,
+            "max": 50,
+            "mul": 0.199136814274,
+            "unit": "psi"
+          },
+          "name": "Rear Right Tire Pressure"
+        }
+      ]
+    }
+  ]
 }
